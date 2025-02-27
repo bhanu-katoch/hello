@@ -1,3 +1,11 @@
+```
+git clone <url>
+```
+## authentication of github
+1. create a token from settings of github
+2. just do simple ```git push```
+3. enter username and token hash code as password. 
+4. after authentication no need to do authentication again for ```git pull```
 ### commit -am 
 here -am works for modified files only if new files has to be add then
 ```
