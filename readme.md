@@ -24,6 +24,10 @@ git pull --no-rebase origin main
  ```
  git checkout <branch name>
  ```
+ ### merge branch
+ ```
+ git merge branch
+ ```
  ## push branch to github
  ```
  git push origin <branch name>
