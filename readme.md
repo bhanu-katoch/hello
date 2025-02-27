@@ -16,6 +16,14 @@ git pull --no-rebase origin main
  ```
  git reset --hard origin/main
  ```
+ ### create branch
+ ```
+ git checkout -b <branch name>
+ ```
+ ### switch branch
+ ```
+ git checkout <branch name>
+ ```
  ## push branch to github
  ```
  git push origin <branch name>
