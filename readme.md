@@ -1,3 +1,9 @@
+### commit -am 
+here -am works for modified files only if new files has to be add then
+```
+git add .
+```
+first
 ### keep both changes of merge conflicts
 git pull --no-rebase origin main
 
@@ -10,3 +16,7 @@ git pull --no-rebase origin main
  ```
  git reset --hard origin/main
  ```
+ ## push branch to github
+ ```
+ git push origin <branch name>
+ ``` 
