@@ -26,7 +26,7 @@ git pull --no-rebase origin main
  ```
  ### merge branch
  ```
- git merge branch
+ git merge <branch name>
  ```
  ## push branch to github
  ```
