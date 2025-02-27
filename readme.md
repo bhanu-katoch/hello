@@ -6,15 +6,12 @@ git clone <url>
 2. just do simple ```git push```
 3. enter username and token hash code as password. 
 4. after authentication no need to do authentication again for ```git pull```
-### commit -am 
-here -am works for modified files only if new files has to be add then
-```
-git add .
-```
-first
+### ```commit -am``` 
+here -am works for modified files only. If there are new files then has to be add as ```git add .``` first.
 ### keep both changes of merge conflicts
+```
 git pull --no-rebase origin main
-
+```
 ### move head as per hashcode of previous version
 ```
  git reset --hard <hashcode>
