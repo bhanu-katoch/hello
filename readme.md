@@ -20,3 +20,15 @@ git pull --no-rebase origin main
  ```
  git push origin <branch name>
  ``` 
+### for safley delete ensuring delete if merged
+```
+git branch -d <branch-name>
+```
+### for force delete branch
+```
+git branch -D <branch-name>
+```
+### to delete from github
+```
+git push origin --delete <branch-name>
+```
