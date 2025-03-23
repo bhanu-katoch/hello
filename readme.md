@@ -9,7 +9,7 @@
 - ```git add``` is used to tell the git which files has to be kept in track and ```git commit``` is used to tell the git to save **snapshot** of version of file.
 
 ### ```commit -am``` 
-- Here -am works for modified files only. If there are new files then has to be add as ```git add .``` ***first***.    
+- Here -am works for modified files only that are staged at all yet. If there are new files then has to be add( staged yet ) then do as ```git add .``` ***first***.    
 
 - ```.``` means to add all files of **repo** otherwise for specific files use ```git add <filename>```.
 
